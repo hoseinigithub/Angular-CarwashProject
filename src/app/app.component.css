@@ -1,0 +1,65 @@
+.header{
+  border-bottom: 5px solid black;
+  border-left: 30px;
+  height: 10vh;
+}
+.main{
+  display: flex;
+  height: 90vh ;
+  width: 100vw;
+}
+.SideRight{
+  width: 10%;
+  height: 100%;
+  border-left: 5px solid black;
+text-align: center;
+  padding-top: 20px;
+}
+
+.SideRight h3{
+  padding-top: 20px;
+  cursor: pointer;
+}
+.SideRight h3:hover{
+color: #ff6a00;
+}
+.SideLeft{
+  width: 90%;
+  height: 100%;
+}
+
+.AddButton{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0;
+  left: 40px;
+  bottom: 40px;
+  position: fixed;
+  font-size: 28px;
+  background-color: #ff6a00;
+  color: black;
+}
+.AddButton:hover{
+  background-color: black;
+  color: #ff6a00;
+  cursor: pointer;
+}
+.AddButton:Active{
+
+  background-color: #ff6a00;
+  color: black;
+}
+
+.tbWorkers{
+  margin: 80px auto;
+border: 3px solid black;
+  border-collapse: collapse;
+  width: 400px;
+  height: 100px;
+  text-align: center;
+}
+ th,tr,td{
+   border-bottom: 3px solid black;
+   border-left: 3px solid black;
+ }

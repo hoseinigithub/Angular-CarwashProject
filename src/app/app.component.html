@@ -1,1 +1,41 @@
-<h1>hello</h1>
+<section class="header">
+
+</section>
+
+<section class="main">
+
+
+  <div class="SideRight">
+    <h3>کارگران</h3>
+    <h3>خدمات</h3>
+  </div>
+
+  <div class="SideLeft">
+
+    <table class="tbWorkers">
+      <thead>
+      <tr>
+        <th>#</th>
+        <th>نام</th>
+        <th>نام خانوادگی</th>
+      </tr>
+
+      </thead>
+
+      <tbody>
+      <tr *ngFor="let item of workerList">
+        <td>{{item['id']}}</td>
+        <td>{{item['firstName']}}</td>
+        <td>{{item['lastName']}}</td>
+      </tr>
+
+      </tbody>
+    </table>
+
+
+    <button class="AddButton">+</button>
+
+  </div>
+
+
+</section>
